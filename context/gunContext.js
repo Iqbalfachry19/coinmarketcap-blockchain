@@ -1,7 +1,7 @@
 import { createContext, useReducer } from 'react'
 import Gun from 'gun'
 
-const gun = Gun(['https://discord-gun-node.herokuapp.com/gun'])
+const gun = Gun(['https://my-gun.herokuapp.com/gun'])
 
 export const GunContext = createContext()
 
