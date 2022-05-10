@@ -1,6 +1,6 @@
 import { NextPage } from 'next'
-import Header from '../components/header'
-import Trending from '../components/trending'
+import Header from '../components/Header'
+import Trending from '../components/Trending'
 const Home: NextPage = () => {
   return (
     <div className="min-h-screen">
