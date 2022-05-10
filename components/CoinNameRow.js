@@ -1,17 +1,17 @@
 import { useContext } from 'react'
 import Image from 'next/image'
-import btc from '../../assets/btc.png'
-import eth from '../../assets/eth.png'
-import usdc from '../../assets/usdc.png'
-import usdt from '../../assets/usdt.png'
-import xrp from '../../assets/xrp.png'
-import cardano from '../../assets/cardano.png'
-import tera from '../../assets/tera.png'
-import solana from '../../assets/solana.png'
-import avalanche from '../../assets/avalanche.png'
-import bnb from '../../assets/bnb.png'
+import btc from '../assets/btc.png'
+import eth from '../assets/eth.png'
+import usdc from '../assets/usdc.png'
+import usdt from '../assets/usdt.png'
+import xrp from '../assets/xrp.png'
+import cardano from '../assets/cardano.png'
+import tera from '../assets/tera.png'
+import solana from '../assets/solana.png'
+import avalanche from '../assets/avalanche.png'
+import bnb from '../assets/bnb.png'
 
-import { CoinMarketContext } from '../../context/context'
+import { CoinMarketContext } from '../context/context'
 
 const styles = {
   coinNameRow: 'flex items-center',
