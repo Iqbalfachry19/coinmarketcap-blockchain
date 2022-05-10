@@ -1,12 +1,12 @@
 import { NextPage } from 'next'
 import Header from '../components/header'
-
+import Trending from '../components/trending'
 const Home: NextPage = () => {
   return (
     <div className="min-h-screen">
       <Header />
       <div className="mt-10" />
-      {/*  */}
+      <Trending />
       <div className="mt-20" />
       {}
     </div>
