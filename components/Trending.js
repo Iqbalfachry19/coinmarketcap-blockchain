@@ -14,7 +14,7 @@ const styles = {
   flexCenter: `flex items-center,`,
 }
 
-const trending = () => {
+const Trending = () => {
   const [checked, setChecked] = useState(false)
 
   const trendingData = [
@@ -99,4 +99,4 @@ const trending = () => {
   )
 }
 
-export default trending
+export default Trending

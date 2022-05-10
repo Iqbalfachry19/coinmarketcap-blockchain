@@ -13,7 +13,7 @@ const styles = {
   input: `bg-transparent outline-none text-white w-70 ml-3`,
   cursorPointer: `mr-5 cursor-pointer`,
 }
-const header = () => {
+const Header = () => {
   // const { getQuote } = useContext(CoinMarketContext)
   return (
     <div className={styles.header}>
@@ -74,4 +74,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header
