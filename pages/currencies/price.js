@@ -1,31 +1,7 @@
-// import { useState, useEffect } from 'react'
-// import CoinDetails from '../../components/coinDetails'
-// import Header from '../../components/header'
+import React from 'react'
 
-// const Price = () => {
-//   const [coinName, setCoinName] = useState('')
-//   const [coinSymbol, setCoinSymbol] = useState('')
-//   const [price, setPrice] = useState('')
+const Price = () => {
+  return <div>price</div>
+}
 
-//   useEffect(() => {
-//     getData()
-//   }, [])
-
-//   const getData = async () => {
-//     const queryString = window.location.search
-//     const urlParams = new URLSearchParams(queryString)
-
-//     setCoinName(urlParams.get('coin'))
-//     setPrice(Number(urlParams.get('price')).toLocaleString(0))
-//     setCoinSymbol(urlParams.get('symbol'))
-//   }
-
-//   return (
-//     <div>
-//       <Header />
-//       <CoinDetails coinName={coinName} price={price} coinSymbol={coinSymbol} />
-//     </div>
-//   )
-// }
-
-// export default Price
+export default Price
