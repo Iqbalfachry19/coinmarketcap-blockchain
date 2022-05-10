@@ -25,8 +25,8 @@ export const CoinMarketProvider = ({ children }) => {
 
   const [currentAccount, setCurrentAccount] = useState('')
   const [openBuyCryptoModal, setOpenBuyCryptoModal] = useState(false)
-  const [fromToken, setFromToken] = useState('ETH')
-  const [toToken, setToToken] = useState('')
+  const [fromToken, setFromToken] = useState('')
+  const [toToken, setToToken] = useState('Dai')
   const [amount, setAmount] = useState('')
 
   useEffect(() => {
